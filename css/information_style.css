@@ -1,0 +1,45 @@
+* {
+    font-family: 'Lato', sans-serif;
+}
+
+.information-container {
+    padding-left: 5vw;
+    padding-right: 5vw;
+}
+
+.info-title {
+    font-weight: 700;
+}
+
+/* Personal Information */
+.personal-info-label {
+    margin-right: 10px;
+    font-size: 1.05rem;
+    font-weight: bold;
+}
+.personal-info-p {
+    font-size: 1.05rem;
+}
+
+/* Medical Information */
+.medical-con-title {
+    font-weight: 500;
+}
+
+.medic-info-check input {
+    /* Double-sized Checkboxes */
+    -ms-transform: scale(1.25); /* IE */
+    -moz-transform: scale(1.25); /* FF */
+    -webkit-transform: scale(1.25); /* Safari and Chrome */
+    -o-transform: scale(1.25); /* Opera */
+    transform: scale(1.25);
+    color: #1c1a18;
+    border: 1px solid rgba(28, 26, 24, 0.5);
+}
+.medic-info-check label {
+    color: #1c1a18;
+    font-size: 1.05rem;
+    font-weight: 500;
+    padding-top: 7px;
+    padding-left: 10px;
+}

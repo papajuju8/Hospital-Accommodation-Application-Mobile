@@ -1,0 +1,57 @@
+* {
+    font-family: 'Lato', sans-serif;
+}
+
+body {
+    background-color: #f0f3fc;
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+section {
+    padding-left: 5vw;
+    padding-right: 5vw;
+}
+
+.table-title {
+    text-align: center;
+    font-weight: 700;
+}
+
+.custom-table-hospital-accommodation {
+    width: 80vw;
+}
+
+.btn-accept {
+    height: 1.85rem;
+    width: 4rem;
+    padding: 1px 5px;
+}
+.btn-reject {
+    height: 1.85rem;
+    width: 4rem;
+    padding: 1px 5px;
+}
+
+/* Modal */
+.account {
+    float: right;
+    overflow: auto;
+    z-index: 10;
+    padding: 5x;
+    /* margin: 3px; */
+  }
+  .account-div {
+    float: left;
+    margin-right: 15px;
+  }
+  .account-button {
+    background-color: #ffba00;
+    width: 135px;
+    height: 40px;
+    font-size: 15px;
+    padding: 3px;
+    font-size: 1em;
+  }

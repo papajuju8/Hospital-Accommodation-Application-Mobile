@@ -1,0 +1,167 @@
+* {
+    font-family: 'Lato', sans-serif;
+}
+
+.account-title {
+    text-align: center;
+    font-weight: bold;
+}
+
+.signup-container {
+    text-align: center;
+    margin-top: 1.15rem;
+}
+.signup-container a {
+    color:rgba(42, 89, 213, 1);
+}
+.signup-container a:hover {
+    color:rgba(42, 89, 213, 1);
+}
+
+/* Login Form */
+.login-jumbotron {
+    padding: 3rem 4rem;
+}
+
+.login-jumbotron label {
+    font-size: 1.15rem;
+    font-weight: 500;
+}
+
+#login-email,
+#login-password {
+    width: 98%;
+    height: 45px;
+    padding-left: 15px;
+    padding-right: 15px;
+    border: 1px solid rgba(15, 15, 15, 0.75);
+}
+
+.login-btn {
+    width: 100%;
+    margin-top: 1.5rem;
+    background-color: rgba(42, 89, 213, 1);
+    border: 1px solid rgba(42, 89, 213, 1);
+    color: #ffffff;
+}
+.login-btn:hover {
+    background-color: rgba(42, 89, 213, 0.8);
+    border: 1px solid rgba(42, 89, 213, 1);
+    color: #ffffff;
+}
+
+/* Sign Up Form */
+.signup-form {
+    margin-left: 5vw;
+    margin-right: 5vw;
+}
+
+.signup-form label {
+    color: #1c1a18;
+    font-size: 1.15rem;
+    font-weight: 500;
+}
+  
+.signup-form input {
+    width: 98%;
+    height: 45px;
+    padding-left: 15px;
+    padding-right: 15px;
+    color: #1c1a18;
+    border: 1px solid rgba(28, 26, 24, 0.5);
+}
+
+/* Remove Arrows for Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Remove Arrows for Firefox */
+input[type="number"] {
+  -moz-appearance: textfield;
+}
+
+.signup-form .radio-button {
+  height: auto;
+  width: auto;
+  color: #1c1a18;
+}
+
+.gender-form {
+  margin: auto;
+}
+.gender-form label {
+  font-size: 1.05rem;
+  font-weight: 400;
+}
+
+.signup-form .custom-form-check {
+    width: 100%;
+}
+.signup-form .custom-form-check .check-box {
+    height: auto;
+    width: auto;
+}
+.signup-form .custom-form-check .confirmation-label {
+    color: #1c1a18;
+    font-size: 0.9rem;
+    margin: 10px;
+}
+.signup-form .custom-form-check .confirmation-label a {
+    color: #1c1a18;
+    cursor: pointer;
+    font-weight: 700;
+}
+  
+.btn.custom-cancel {
+    width: 100%;
+    padding: 7px;
+    background-color: #fcfcfc;
+    border: 1px solid rgba(179, 23, 18, 1);
+    color: #ff0000;
+}
+.btn.custom-cancel:hover,
+.btn.custom-cancel:focus {
+    background-color: rgba(179, 23, 18, 0.75);
+    border: 1px solid rgba(179, 23, 18, 1);
+    box-shadow: none;
+    color: white;
+}
+  
+.btn.custom-signup {
+    padding: 0;
+    background-color: rgba(42, 213, 166, 1);
+    border: 1px solid rgba(42, 213, 166, 1);
+    color: #fff;
+}
+.btn.custom-signup:hover,
+.btn.custom-signup:focus {
+    background-color: rgba(42, 213, 166, 0.8);
+    border: 1px solid rgba(42, 213, 166, 0.8);
+    box-shadow: none;
+    color: #1c1a18;
+}
+  
+.btn.custom-close {
+    background-color: rgba(42, 213, 166, 1);
+    border: 1px solid rgba(42, 213, 166, 1);
+    color: #fff;
+}
+.btn.custom-close:hover,
+.btn.custom-close:focus {
+    background-color: rgba(42, 213, 166, 0.8);
+    border: 1px solid rgba(42, 213, 166, 0.8);
+    box-shadow: none;
+    color: #1c1a18;
+}
+
+.medical-information .check-box {
+    width: 1.15rem;
+    height: 1.15rem;
+    padding-left: 15px;
+    padding-right: 15px;
+    color: #1c1a18;
+    border: 1px solid rgba(28, 26, 24, 0.5);
+}

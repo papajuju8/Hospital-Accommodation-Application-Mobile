@@ -1,0 +1,26 @@
+* {
+  font-family: 'Lato', sans-serif;
+}
+
+footer {
+  margin-top: auto;
+}
+  
+.footer-copyright {
+  background-color: #2a59d5;
+  color: white;
+}
+.footer-copyright p {
+  margin: 0;
+  font-size: 0.85rem;
+}
+.footer-copyright a {
+  color: white;
+  margin: 0;
+  font-size: 0.85rem;
+}
+.footer-copyright a:hover {
+  color: #f0f3fc;
+  margin: 0;
+  font-size: 0.85rem;
+}

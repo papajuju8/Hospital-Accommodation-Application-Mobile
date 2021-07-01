@@ -1,0 +1,37 @@
+* {
+    font-family: 'Lato', sans-serif;
+}
+
+.mobile-tester {
+    padding: 4rem 5rem;
+}
+
+.mobile-title {
+    text-align: center;
+    font-weight: bold;
+}
+
+.round-button {
+    border-radius: 50%;
+    height: 20vw;
+    width: 20vw;
+}
+
+.alert-button {
+    font-size: 7.5vw;
+    text-align: center;
+    cursor: pointer;
+    outline: none;
+    color: #fff;
+    background-color: rgba(202, 43, 43, 1);
+    border: none;
+    box-shadow: 0 10px rgba(176, 115, 109, 0.8);
+}
+.alert-button:hover {
+    background-color: rgba(202, 43, 43, 0.85);
+}
+.alert-button:active {
+    background-color: rgba(202, 43, 43, 1);
+    box-shadow: 0 5px rgba(176, 115, 109, 1);
+    transform: translateY(4px);
+}

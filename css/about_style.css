@@ -1,0 +1,59 @@
+* {
+    font-family: 'Lato', sans-serif;
+}
+
+.about-container {
+    margin-left: 10vw;
+    margin-right: 10vw;;
+}
+
+.about-title {
+    font-weight: bold;
+    font-size: 2rem;
+    text-align: center;
+}
+.about-content {
+    font-size: 1.15rem;
+}
+
+.certificate-container {
+    margin-left: 30vw;
+    margin-right: 30vw;
+}
+.certificate {
+    width: 15vw;
+}
+.certif-title {
+    text-align: center;
+    font-size: 1.15rem;
+}
+
+.contact-content {
+    font-size: 1.15rem;
+    text-align: center
+}
+.contact-subtitle {
+    font-weight:bold;
+}
+
+.members-container {
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.round-image {
+    border-radius: 50%;
+    width: 18vw;
+    height: 18vw;
+    object-fit: cover;
+}
+
+.member {
+    text-align: center;
+    font-size: 1.15rem;
+}
+
+.short-line {
+    width: 30vw;
+    background-color: #4e4e4e;
+}
